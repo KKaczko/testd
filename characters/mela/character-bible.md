@@ -31,7 +31,7 @@ Poza zakresem tego dokumentu pozostają:
 ## 2. Źródła prawdy i hierarchia autorytetu
 
 Zasady produktu, grupy docelowej, edukacji, języka, tempa i ogólnego stylu
-pochodzą z [Product Bible](../../docs/product_bible.md). Ten dokument odwołuje
+pochodzą z [Product Bible](../../docs/product-bible.md). Ten dokument odwołuje
 się do nich i nie powiela ich pełnej treści.
 
 Hierarchia autorytetu jest następująca:
