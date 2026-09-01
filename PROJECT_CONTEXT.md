@@ -670,6 +670,20 @@ Canonical documents should be version controlled.
 
 ---
 
+## Canonical documents
+
+Current intended canonical paths:
+
+- Product definition: `docs/product-bible.md`
+- Mela character definition: `characters/mela/character-bible.md`
+- Piko character definition: `characters/piko/character-bible.md`
+- Visual style: `world/style-bible.md`
+- World definition: `world/world-bible.md`
+
+Some of these files may not exist yet while the project is in pre-production.
+Their absence does not authorize inventing their contents without review.
+
+
 # 23. Initial pilots
 
 The first three pilot concepts are:

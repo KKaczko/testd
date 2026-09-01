@@ -81,6 +81,29 @@ Use Markdown for human-readable bibles.
 
 Use JSON / JSON Schema only when the structure has stabilized enough to be consumed programmatically.
 
+## Source-of-truth policy
+
+Avoid maintaining the same project decision in multiple canonical documents.
+
+When existing content is moved into the canonical repository structure:
+- prefer moving or refactoring the existing document over creating a duplicate,
+- preserve useful existing content,
+- update references to the new canonical path,
+- remove obsolete duplicate files after migration.
+
+Canonical paths should use stable names without version suffixes.
+
+Prefer:
+
+`docs/product-bible.md`
+
+over:
+
+`docs/product-bible-v1.md`
+
+Document history belongs in Git.
+Document status and semantic version may be stored inside the document.
+
 ## Git
 
 Prefer small, coherent commits.
@@ -102,6 +125,20 @@ Examples:
 - `docs: lock Mela color palette`
 - `episode: add EP001 shadow storyboard`
 - `production: add episode schema validator`
+
+## Creative lock policy
+
+Do not silently convert exploratory creative choices into locked specifications.
+
+For visual design distinguish between:
+
+- LOCKED — explicitly approved and canonical,
+- CANDIDATE — preferred direction under evaluation,
+- DRAFT — working assumption,
+- OPEN — not yet decided.
+
+For character appearance, canonical visual references have higher authority
+than textual prompts once those references are approved.
 
 ## Human approval
 
