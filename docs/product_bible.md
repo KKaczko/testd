@@ -1,3 +1,6 @@
+Status: CANDIDATE
+Version: 1.0.0
+
 Mela i Piko — Product Bible v1
 
 1. Cel projektu
